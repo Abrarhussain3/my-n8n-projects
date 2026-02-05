@@ -4,7 +4,7 @@ This repository contains an **n8n Patient Onboarding Automation** that listens t
 
 ---
 
-## 📌 Overview
+# Overview
 
 **Trigger:** Google Form → Google Sheets  
 **Automation Tool:** n8n  
@@ -12,7 +12,7 @@ This repository contains an **n8n Patient Onboarding Automation** that listens t
 
 ---
 
-## 🧩 Workflow Architecture (Step-by-Step)
+## Workflow Architecture (Step-by-Step)
 
 ### Step 1: Google Sheets Trigger
 - Listens for **new row added** in Google Form responses sheet.
@@ -93,7 +93,7 @@ Each condition sends a **customized welcome email**.
 
 ---
 
-## 📂 Google Sheets Used
+## Google Sheets Used
 
 1. **Patient Onboarding Data**
    - Source form responses
@@ -107,7 +107,7 @@ Each condition sends a **customized welcome email**.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Install and run **n8n**
 2. Import workflow JSON:
@@ -120,14 +120,14 @@ Each condition sends a **customized welcome email**.
 
 ---
 
-## 🔐 Required Credentials
+## Required Credentials
 
 - Google Sheets OAuth2
 - Gmail OAuth2
 
 ---
 
-## ✅ Key Features
+## Key Features
 
 - Duplicate email prevention
 - Condition-based logic
@@ -137,13 +137,13 @@ Each condition sends a **customized welcome email**.
 
 ---
 
-## 📥 File Included
+## File Included
 
 - `Patient Onboarding Workflow.json` – n8n workflow export
 
 ---
 
-## 🧠 Future Enhancements
+## Future Enhancements
 
 - WhatsApp onboarding messages
 - Risk score calculation
