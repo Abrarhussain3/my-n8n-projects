@@ -105,7 +105,7 @@ Each condition sends a **customized welcome email**.
 3. **Doctors Contact Information**
    - Doctor name & email mapping
 
----
+
 
 ## Setup Instructions
 
@@ -118,14 +118,14 @@ Each condition sends a **customized welcome email**.
 4. Ensure Google Sheets columns match workflow fields
 5. Activate the workflow 🚀
 
----
+
 
 ## Required Credentials
 
 - Google Sheets OAuth2
 - Gmail OAuth2
 
----
+
 
 ## Key Features
 
@@ -135,21 +135,10 @@ Each condition sends a **customized welcome email**.
 - Scalable patient tracking
 - Fully no-code automation
 
----
+
 
 ## File Included
 
 - `Patient Onboarding Workflow.json` – n8n workflow export
 
----
 
-## Future Enhancements
-
-- WhatsApp onboarding messages
-- Risk score calculation
-- Daily check-in automation
-- Doctor dashboard integration
-
----
-
-**Built with ❤️ using n8n**
