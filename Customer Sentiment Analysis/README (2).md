@@ -149,14 +149,28 @@ Before importing the workflow, ensure you have:
 
 Send a POST request to the webhook URL:
 ```bash
-curl -X POST <WEBHOOK_URL> -H "Content-Type: application/json" -d '{"body":{"text":"The support team was very helpful"}}'
+- curl -X POST <WEBHOOK_URL> -H "Content-Type: application/json" -d '{"body":{"text":"The support team was very helpful"}}'
 ```
+- copy your <WEBHOOK_URL> after opening webhook node and past in above link at <WEBHOOK_URL> (B/W POST and -H) it looks like this 
+
+- example: 
+
+       curl -i -X POST https://usamapu.app.n8n.cloud/webhook-test/customer-sentiment-analysis -H "Content-Type: application/json" -d "{\"text\": \"The customer service was excellent, but the shipping took too long.\"}"
+
+- now excute workflow (your work flow must be in listing mode), then open cmd in your mechine and then past final curl with your webhook url and hit enter youe workflow excute successfully 
 
 The workflow will:
 - Analyze sentiment
 - Store embeddings
 - Log results
 - Handle alerts automatically
+
+---
+
+## Sample Output
+
+     Date               Original Text                  Sentiment    Output                                     Status 
+    2026-02-07 10:39   The service was excellent...    Neutral     Neutral. Conflicting sentiments found...   Processed
 
 ---
 
