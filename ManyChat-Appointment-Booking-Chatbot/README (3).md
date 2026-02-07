@@ -1,8 +1,10 @@
-🤖 ManyChat Appointment Booking Chatbot
+## ManyChat Appointment Booking Chatbot
 
 A production-ready appointment booking chatbot built with ManyChat, originally designed for healthcare but easily adaptable to any appointment-based business. The bot automates the complete booking workflow—from user interaction to appointment confirmation—reducing manual work, response time, and human errors.
 
-📌Features:
+ ---
+ 
+## Features:
 
       1. Automated appointment booking flow
       2. Optimized for healthcare (clinics, doctors, labs)
@@ -12,7 +14,9 @@ A production-ready appointment booking chatbot built with ManyChat, originally d
       6. Works on Facebook Messenger / Instagram (ManyChat)
       7. Easy integration with Google Sheets, Make.com, Zapier, or APIs
 
-🧩 Chatbot Flow Overview :
+ ---
+ 
+## Chatbot Flow Overview :
 
       1. User starts conversation (Hi / Book Appointment)
       2. Bot asks for basic details (Name, Service)
@@ -22,7 +26,9 @@ A production-ready appointment booking chatbot built with ManyChat, originally d
       6. Data is stored or sent to external tools (optional)
       7. Send Confirmation Email With Appointment Details
 
-🗺 Flow Diagram (High Level):
+ ---
+ 
+## Flow Diagram (High Level):
 
       User → Welcome Message
            → Select Service
@@ -32,8 +38,9 @@ A production-ready appointment booking chatbot built with ManyChat, originally d
            → (Optional) Save to Google Sheet / CRM
            → Send Email
      
+  ---
   
-⚙️ Setup Instructions:
+## Setup Instructions:
 
 ManyChat Flow Import Checklist (Clients / Teammates)
 
@@ -64,8 +71,10 @@ ManyChat Flow Import Checklist (Clients / Teammates)
     4. Final Go-Live
     
           Turn the flow ON
-
-🏗 Use Cases:
+ 
+ ---
+ 
+## Use Cases:
 
        1. Healthcare clinics & hospitals
        2. Beauty salons & spas
@@ -75,7 +84,9 @@ ManyChat Flow Import Checklist (Clients / Teammates)
        6. Educational institutes
        7. etc.
 
-🎯 Why This Project:
+ ---
+ 
+## Why This Project:
 
 This project demonstrates:
 
@@ -84,16 +95,18 @@ This project demonstrates:
        3. Business process automation (booking → confirmation → data storage)
        4. Scalable & reusable architecture for any appointment-based business
 
+ ---
+ 
+## Demo Video (how it work):
 
-🎥 Demo Video (how it work):
          Watch full project explanation: https://youtube.com/shorts/Q9fuyQL3W0M?si=HNHzeWp-QdqZ4aSd
 
-             
-📬 Contact:
+ ---
+ 
+## Contact:
 
     If you’d like help customizing or extending this chatbot, feel free to reach out.
 
-#manychat #chatbot #appointment-booking #healthcare-automation #business-automation #no-code customer-support-bot
-
+ ---
 
 ⭐ Star this repository if you find it useful!
