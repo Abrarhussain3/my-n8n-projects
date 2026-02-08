@@ -2,6 +2,7 @@
 
 This repository contains an **n8n Patient Onboarding Automation** that listens to Google Form submissions, stores patient data, sends condition-based welcome emails, updates Google Sheets, and notifies assigned doctors.
 
+---
 
 # Overview
 
@@ -9,6 +10,7 @@ This repository contains an **n8n Patient Onboarding Automation** that listens t
 **Automation Tool:** n8n  
 **Use Case:** Healthcare patient onboarding (PCOS, Diabetes, Hypertension, Overweight)
 
+---
 
 ## Workflow Architecture (Step-by-Step)
 
@@ -43,7 +45,6 @@ This repository contains an **n8n Patient Onboarding Automation** that listens t
 - Appends patient record into **Patients_DB Google Sheet**.
 - Acts as the master patient table.
 
-
 ### Step 5: Condition-Based Routing (Switch Node)
 Based on **Health Condition**:
 - PCOS
@@ -53,7 +54,6 @@ Based on **Health Condition**:
 
 Each condition sends a **customized welcome email**.
 
-
 ### Step 6: Send Welcome Email to Patient
 - Uses Gmail node.
 - Includes:
@@ -62,17 +62,14 @@ Each condition sends a **customized welcome email**.
   - Patient ID
   - Assigned doctor (where applicable)
 
-
 ### Step 7: Mark Welcome as Sent
 - Updates original Google Form response sheet.
 - Sets `welcomeSent = yes`
 - Uses **Timestamp** as the matching key.
 
-
 ### Step 8: Fetch Assigned Doctor Details
 - Looks up doctor from **Doctors Contact Information** sheet.
 - Matches using Doctor Name.
-
 
 ### Step 9: Notify Doctor via Email
 - Sends doctor an email with:
@@ -80,6 +77,7 @@ Each condition sends a **customized welcome email**.
   - Patient condition
 - Confirms new patient assignment.
 
+---
 
 ## Google Sheets Used
 
@@ -93,6 +91,7 @@ Each condition sends a **customized welcome email**.
 3. **Doctors Contact Information**
    - Doctor name & email mapping
 
+---
 
 ## Setup Instructions
 
@@ -105,12 +104,14 @@ Each condition sends a **customized welcome email**.
 4. Ensure Google Sheets columns match workflow fields
 5. Activate the workflow 
 
+---
 
 ## Required Credentials
 
 - Google Sheets OAuth2
 - Gmail OAuth2
 
+---
 
 ## Key Features
 
@@ -120,6 +121,7 @@ Each condition sends a **customized welcome email**.
 - Scalable patient tracking
 - Fully no-code automation
 
+---
 
 ## File/Links Included
 
@@ -147,7 +149,12 @@ Each condition sends a **customized welcome email**.
   
   https://docs.google.com/spreadsheets/d/1bJASWjmaGPKTbjCUo9kCQllBisT0aopvv_yJ8S72hpI/edit?usp=sharing
 
+---
 
+## Demo Video (how it work):
+
+ Watch full project explanation: https://youtube.com/shorts/ZMdu6QVhV5E?feature=share
+ 
 
 
 
